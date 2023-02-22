@@ -1,0 +1,8 @@
+{
+    "include": [
+        "./node_modules/__auto-imports-plugin/auto-imports.d.ts"
+    ],
+    "compilerOptions": {
+        "experimentalDecorators": true
+    }
+}

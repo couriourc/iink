@@ -1,0 +1,43 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #0f0f0f;
+  background-color: transparent;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: transparent;
+  text-align: left;
+  margin: 0;
+  margin-top: 4px;
+  margin-left: 4px;
+  overflow: hidden;
+}
+canvas {
+  background-color: transparent;
+}
+#board {
+  touch-action: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px 0.5px rgba(0, 0, 0, 0.1);
+  cursor: crosshair;
+}
+
+#floatingButton {
+  background: #97a5a8;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s, opacity 1s;
+  cursor: pointer;
+}
+#floatingButton:active {
+  transform: scale(0.9, 0.9);
+}
